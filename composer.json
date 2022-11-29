@@ -1,0 +1,33 @@
+{
+    "name": "appsorigin/dashboard",
+    "description": "Simple layout for tailwind css Dashboard",
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Philip Njuguna",
+            "email": "philip@lifelong.co.ke"
+        }
+    ],
+    "require": {
+        "php": "^8.1",
+        "spatie/laravel-permission": "^5.7"
+
+    },
+    "require-dev": {
+        "blade-ui-kit/blade-heroicons": "^1.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "Dashboard\\": "src/"
+        },
+        "extra": {
+            "laravel": {
+                "providers": [
+                    "Dashboard\\DashboardServiceProvider"
+                ]
+            }
+        }
+    }
+}
