@@ -12,5 +12,12 @@ return [
         'dashboard' => [
             'browse',
         ],
+        'users' => [
+            'browse',
+            'read',
+            'add',
+            'edit',
+            'deactivate'
+        ],
     ],
 ];
