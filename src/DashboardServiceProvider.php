@@ -26,7 +26,7 @@ class DashboardServiceProvider extends ServiceProvider
 
         $this->publishes([
             __DIR__.'/../config/dashboard.php' => config_path('dashboard.php'),
-        ]);
+        ],'dashboard');
 
         if ($this->app->runningInConsole())
         {
