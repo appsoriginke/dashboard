@@ -1,5 +1,6 @@
 <?php
 return [
+    "app_name" => "My Kenya",
     'navigations' => [
         'dashboard' => [
             'url' => 'dashboard',
