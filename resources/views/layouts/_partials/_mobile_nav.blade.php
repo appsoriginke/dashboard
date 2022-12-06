@@ -12,7 +12,7 @@
 
         <div class="fixed inset-0 flex z-40" >
 
-            <div class="relative flex-1 flex flex-col max-w-xs w-full pt-5 pb-4 bg-{{ config('dashboard.hover-theme-color') }}-700">
+            <div class="relative flex-1 flex flex-col max-w-xs w-full pt-5 pb-4 bg-{{ config('dashboard.primary-theme-color') }}-700">
 
                 <div class="absolute top-0 right-0 -mr-12 pt-2">
                     <button
@@ -30,7 +30,7 @@
                     <img class="h-8 w-auto" src="https://tailwindui.com/img/logos/easywire-logo-300-mark-white-text.svg" alt="Easywire logo">
                 </div>
                 <nav
-                    class="mt-5 flex-shrink-0 h-full divide-y divide-{{ config('dashboard.primary-theme-color') }}-800 overflow-y-auto" aria-label="Sidebar">
+                    class="mt-5 flex-shrink-0 h-full divide-y divide-{{ config('dashboard.hover-theme-color') }}-800 overflow-y-auto" aria-label="Sidebar">
                     <div class="px-2 space-y-1">
 
                         @include('dashboard::layouts._partials._nav')
