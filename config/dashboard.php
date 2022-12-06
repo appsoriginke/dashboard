@@ -1,6 +1,7 @@
 <?php
 return [
     "app_name" => "My Kenya",
+    "theme-color" => "green",
     'navigations' => [
         'dashboard' => [
             'url' => 'dashboard',
