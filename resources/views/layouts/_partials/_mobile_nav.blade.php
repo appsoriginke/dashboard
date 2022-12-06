@@ -12,7 +12,7 @@
 
         <div class="fixed inset-0 flex z-40" >
 
-            <div class="relative flex-1 flex flex-col max-w-xs w-full pt-5 pb-4 bg-cyan-700">
+            <div class="relative flex-1 flex flex-col max-w-xs w-full pt-5 pb-4 bg-{{ config("dashboard.primary-theme-color") }}-600">
 
                 <div class="absolute top-0 right-0 -mr-12 pt-2">
                     <button
