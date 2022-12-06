@@ -1,7 +1,7 @@
 <?php
 return [
     "app_name" => "My Kenya",
-    "primary-theme-color" => "black",
+    "primary-theme-color" => "green",
     "hover-theme-color" => "green",
     'navigations' => [
         'dashboard' => [
