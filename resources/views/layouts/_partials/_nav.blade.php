@@ -7,7 +7,6 @@
            aria-current="page">
             <x-dynamic-component :component="$navigation['icon']" class="h-6 w-6 mr-1" />
 
-
             {{ $name }}
 
         </a>
